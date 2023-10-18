@@ -1,0 +1,49 @@
+.hero-container {
+  background: url("/public/images/sdg_main.png");
+  background-size:cover;
+  position: relative;
+  background-position: center;
+  background: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+  overflow: hidden;
+  z-index: 1;
+}
+  
+.hero-container > h1 {
+  color: #fff;
+  font-size: 70px;
+}
+  
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.get-started {
+  margin-top: 20px;
+  width: 12rem;
+  height: 50px;
+  background-color: #09ACDC;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.get-started:hover {
+  background-color: #0070AE;
+  color: #fff;
+  box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
